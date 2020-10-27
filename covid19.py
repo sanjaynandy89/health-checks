@@ -5,7 +5,9 @@ def WhoGuidLines(affected):
          print("Green Zone Cluster")
      elif affected<50000:
          print("Yellow Zone Cluster")
-     else:
-          print("Red Zone Cluster")
+     elif: affected<25000:
+         print("Pink Zone Cluster")
+	 else:
+	     print("Red Zone Cluster")
      
 
