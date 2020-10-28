@@ -25,3 +25,5 @@ if(ch=='1'):
    WriteBinary()
 if(ch=='2'):
    ReadBinary()
+if(ch=='3'):
+   sys.exit()
